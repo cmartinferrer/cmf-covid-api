@@ -39,7 +39,6 @@ class CovidControllerTest {
   private CovidControllerMapper mapper = Mappers.getMapper(CovidControllerMapper.class);
 
   private MockMvc mvc;
-  private CovidController controller;
   private EasyRandom generator = new EasyRandom();
 
   @BeforeEach

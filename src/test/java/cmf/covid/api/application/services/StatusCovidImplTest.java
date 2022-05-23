@@ -32,7 +32,7 @@ class StatusCovidImplTest {
     when(api.findStatusByCountry(COUNTRY))
         .thenReturn(createCovidStatusList());
 
-    api.findStatusByCountry(COUNTRY);
+    service.findStatusByCountry(COUNTRY);
 
     verify(api).findStatusByCountry(COUNTRY);
   }
